@@ -8,4 +8,4 @@
 <li align="center">Manrik Gabriel Palafoz Bispo - RA:125111356092
 <br>
 <h2 align="center">Descrição<h2><br>
-<p>O Projeto consiste em uma Consultoria especializada em implementação do WorkForce Software, um ERP especializado em marcação e tratativa de ponto para RH, onde se consiste em descentralizar as tratativa de: marcação de ponto, ausencia, férias e horas extras, entre outros, onde cada departamento está responsavel para tratar essas informações de cada colaborador. O gestor é o responsavel por cuidar dessas tratativas de seus subordinados e caso necessario o envolvimento do RH em conjunto.</p>
+<p>O Projeto consiste em uma Consultoria especializada em implementação do WorkForce Software, um ERP especializado em marcação e tratativa de ponto para RH, onde se consiste em descentralizar as tratativas de: marcação de ponto, ausencia, férias e horas extras, entre outros, onde cada departamento está responsavel para tratar essas informações de cada colaborador. O gestor é o responsavel por cuidar dessas tratativas de seus subordinados e caso necessario o envolvimento do RH em conjunto.</p>
