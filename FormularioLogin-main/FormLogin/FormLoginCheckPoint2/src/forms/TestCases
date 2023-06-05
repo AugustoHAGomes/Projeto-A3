@@ -1,0 +1,73 @@
+* CT01 - Login no Sistema
+
+Cenario 001:
+
+Dado que eu esteja na tela de Login
+Quando eu preencher os campos usuário e senha corretamente
+E Clicar em ENTRAR
+Então o sistema me permite entrar
+
+Cenario 002:
+
+Dado que eu esteja na tela de login
+Quando eu preencher os campos Usuário e Senha incorretamente
+E Clicar em ENTRAR
+Então o sistema deve exibir “DADOS INVÁLIDOS”
+
+Cenario 003:
+
+Dado que eu esteja na tela de login
+Quando eu preencher os campos Usuário e Senha
+E clicar em CANCELAR
+Então o sistema deve fechar
+
+Cenario 004:
+
+Dado que eu esteja na tela de login
+Quando eu clicar em FAZER CADASTRO
+Então devo ser direcionado para a tela de cadastro.
+
+
+CT02 – TELA DE CADASTRO
+
+Cenario 001:
+
+Dado que eu esteja na tela de cadastro
+Quando eu preencher os campos obrigatórios
+E clicar em CADASTRAR
+Então o sistema deve exibir uma confirmação de cadastro e meus dados devem ser armazenados no BD.
+
+Cenario 002:
+
+Dado que eu esteja na tela de cadastro
+Quando eu preencher somente os campos opcionais
+E clicar em CADASTRAR
+O sistema deve exibir “Preencha os campos obrigatórios”
+
+
+CT03 – LANÇAMENTO DE HORAS
+
+Cenario 001
+Dado que eu esteja na tela de lançamento de horas
+Quando eu digitar DATA E HORA corretamente.
+E Selecionar tipo de lançamento
+E clicar em SALVAR
+Então o sistema deve lançar as horas trabalhadas
+
+Cenario 002
+
+Dado que eu esteja na tela de lançamento de horas
+Quando eu digitar DATA E HORA incorretamente
+Então o sistema deve exibir “DATA E HORA INVÁLIDO”
+
+Cenario 003:
+
+Dado que eu esteja na tela de lançamento de horas
+Quando eu selecionar informações de um funcionário válido
+Então o sistema deve exibir o informações do usuário Valido
+
+Cenario 004:
+
+Dado que eu esteja na tela de lançamento de horas
+Quando eu selecionar informações de um funcionário inválido.
+Então o sistema deve exibir “Usuário inválido ou não encontrado”
